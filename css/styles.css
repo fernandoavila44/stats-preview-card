@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-main{
+body{
   align-items: center;
   background-color: hsl(233, 47%, 7%);
   display: flex;
@@ -88,13 +88,12 @@ span{
 .desktop-img{
   border-radius: 0 0.938rem 0.938rem 0;
   width: 100%;
-  height: 100%;
   mix-blend-mode: multiply;
   opacity: 0.8;
+  display: block;
 }
 
 .mobile-img{
-  position: relative;
   display: none;
 }
 
@@ -106,9 +105,14 @@ span{
 
 @media (max-width: 26.563rem){
 
+  body{
+    height: auto;
+  }
+
   .main-container{
     flex-direction: column-reverse;
     width: 90vw;
+    margin: 6.25rem 0;
   }
 
   .left-card{
@@ -149,12 +153,7 @@ span{
 
   /* Top card & image */
 
-  main{
-    align-items: stretch;
-  }
-
   .right-card{
-    background-color: hsl(277, 64%, 61%);
     width: 100%;
     border-radius: 0.938rem 0.938rem 0 0;
   }
@@ -164,10 +163,9 @@ span{
   }
 
   .mobile-img{
-    display: initial;
+    display: block;
     border-radius: 0.938rem 0.938rem 0 0;
     width: 100%;
-    height: 100%;
     mix-blend-mode: multiply;
     opacity: 0.8;
   }
