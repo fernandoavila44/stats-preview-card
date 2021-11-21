@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Lexend+Deca:wght@100;200;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  align-items: center;
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1,h2{
+  font-family: 'Inter', sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+h1{
+  line-height: 3rem;
+  margin-bottom: 1.25rem;
+  font-size: 2.2rem;
+}
+
+span{
+  color: hsl(277, 64%, 61%);
+}
+
+.main-container{
+  display: flex;
+  width: 67.5rem;
+}
+
+.left-card{
+  border-radius: 0.938rem 0 0 0.938rem;
+  background-color: hsl(244, 38%, 16%) ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem 4.375rem;
+  width: 50%;
+}
+
+.description-left-card{
+  display: flex;
+  flex-direction: column;
+}
+
+.description-left-card p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.5rem;
+  width: 90%;
+}
+
+.stats-left-card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-left-card div{
+  width: 90%;
+}
+
+.stats-left-card div p{
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 200;
+  font-size: 0.813rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+
+/* Right card & image */
+
+.right-card{
+  background-color: hsl(277, 64%, 61%);
+  width: 50%;
+  border-radius: 0 0.938rem 0.938rem 0;
+}
+
+.desktop-img{
+  border-radius: 0 0.938rem 0.938rem 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+}
+
+.mobile-img{
+  position: relative;
+  display: none;
+}
+
+/* ################################################ */
+
+/* Media Queries */
+
+/* Button card */
+
+@media (max-width: 26.563rem){
+
+  .main-container{
+    flex-direction: column-reverse;
+    width: 90vw;
+  }
+
+  .left-card{
+    width: 100%;
+    border-radius: 0 0 0.938rem 0.938rem;
+    padding: 0;
+  }
+
+  .description-left-card{
+    align-items: center;
+    margin: 40px 0;;
+  }
+
+  h1{
+    font-size: 1.5rem;
+    line-height: normal;
+    text-align: center;
+    width: 70%;
+  }
+
+  .description-left-card p{
+    text-align: center;
+    width: auto;
+    width: 80%;
+  }
+
+  .stats-left-card{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .stats-left-card div{
+    width: auto;
+    margin: 1.25rem 0;
+    text-align: center;
+  }
+
+  /* Top card & image */
+
+  main{
+    align-items: stretch;
+  }
+
+  .right-card{
+    background-color: hsl(277, 64%, 61%);
+    width: 100%;
+    border-radius: 0.938rem 0.938rem 0 0;
+  }
+
+  .desktop-img{
+    display: none;
+  }
+
+  .mobile-img{
+    display: initial;
+    border-radius: 0.938rem 0.938rem 0 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+  }
+
+}
