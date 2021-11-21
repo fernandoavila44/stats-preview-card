@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-(/screenshot.jpg)
+[https://github.com/fernandoavila44/stats-preview-card/blob/06f2fd441cc80a1c521265e85b46803b76258be0/screenshot.JPG]
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://fernandoavila44.github.io/stats-preview-card/](https://your-live-site-url.com)
 
 ## My process
 
