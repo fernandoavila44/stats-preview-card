@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-[https://github.com/fernandoavila44/stats-preview-card/blob/06f2fd441cc80a1c521265e85b46803b76258be0/screenshot.JPG]
+[https://github.com/fernandoavila44/stats-preview-card/blob/main/screenshot.PNG]
 
 
 ### Links
 
-- Live Site URL: [https://fernandoavila44.github.io/stats-preview-card/](https://your-live-site-url.com)
+- Live Site URL: [https://fernandoavila44.github.io/stats-preview-card/](https://fernandoavila44.github.io/stats-preview-card/)
 
 ## My process
 
